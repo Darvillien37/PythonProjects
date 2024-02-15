@@ -106,7 +106,7 @@ class DoublePendulum:
             self.a2_v = self.a2_v * DAMPENING
 
 
-dp1 = DoublePendulum()
+dp1 = DoublePendulum('red')
 dp2 = DoublePendulum('green')
 dp2.a1 = dp1.a1
 dp2.a2 = dp1.a2
